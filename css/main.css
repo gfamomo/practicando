@@ -1,0 +1,102 @@
+body{
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list-group-item{
+    margin: 5px;
+    color: white;
+    background: rgba(0,128,128,0.2);
+    border: none;
+}
+/*
+.list-group-item:first-of-type, .list-group-item:last-of-type{
+    border-radius: 0px;
+}
+*/
+.list-group-item.active{
+    background: rgba(12,12,76,.2);
+}
+
+.list-group-item:hover{
+    background: rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+.card-img-top{
+    width: 75%;
+    margin: 50px auto 20px auto;
+    border-radius: 50%;
+}
+.card .card-title{
+    color: #333;
+    text-align: center;
+}
+.card .card-title span{
+    color: rgba(94, 4, 11, 1);
+}
+.card h4{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+.cart p{
+    text-align: center;
+}
+.card .btn-primary{
+    background-color:  rgba(94, 4, 11, 1);
+    border: none;
+}
+.social-network-wrapper{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.social-network-wrapper .social-icon{
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.social-network-wrapper a:not(:first-of-type){
+    margin-left: 5px;
+}
+.social-network-wrapper .social-icon.instagram{
+    background-image: url("../img/instagram-icon.png");
+}
+.social-network-wrapper .social-icon.facebook{
+    background-image: url("../img/facebook-icon.png");
+}
+.social-network-wrapper .social-icon.twitter{
+    background-image: url("../img/twitter-icon.png");
+}
+.social-network-wrapper .social-icon.linkedin{
+    background-image: url("../img/linkedin-icon.png");
+}
+.social-network-wrapper .social-icon.youtube{
+    background-image: url("../img/youtube-icon.png");
+}
+.section-header.education{
+    background: url("../img/templo-icon.png");
+    background-size: 15px;
+    border-left: 3px solid green;
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    padding-left: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+}
+.resume-wrapper{
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80vh;
+    /*height: fit-content;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.btn-primary{
+    margin: 5px;
+}
