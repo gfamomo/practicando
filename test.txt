@@ -1,0 +1,5 @@
+my first file commit
+
+git status
+git add
+git commit -m "my first commit"
